@@ -3,9 +3,10 @@ package neuefisched.de;
 public record Animal(
         String id,
         String name,
-        String species,
+        String breed,
         int age,
-        Owner owner
+        Owner owner,
+        Species species
 ) {
 
 }
