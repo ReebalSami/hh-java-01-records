@@ -4,7 +4,8 @@ public record Animal(
         String id,
         String name,
         String species,
-        int age
+        int age,
+        Owner owner
 ) {
 
 }
